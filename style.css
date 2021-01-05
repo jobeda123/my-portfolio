@@ -1,24 +1,27 @@
 body{
     font-family: 'Noto Sans', sans-serif;
-    font-size: 20px;
-    margin: 0px;
+    margin: 0%;
 }
 
 .name-highlight{
-    color: rgb(81, 216, 81);
+    color:rgb(47, 47, 189);
 }
 
 h1{
-    font-size: 45px;
+    font-size: 50px;
 }
 
 h2{
     font-size: 40px;
 }
 
+p{
+    color:gray;
+}
+
 .button-link{
     text-decoration: none;
-    background-image: linear-gradient(to right,lightgreen , green);
+    background-image: linear-gradient(to right,cyan , blue);
     border: 15px;
     padding: 10px 20px;
     color: white;
@@ -28,9 +31,10 @@ h2{
 
 .half-width{
     width: 40%;
-    padding-left: 5%;
+    padding-left: 2%;
     float: left;
-    margin: 2%;
+    margin-left: 5%;
+
 }
 
 .half-width img{
@@ -38,12 +42,42 @@ h2{
 }
 
 section{
-    margin-top: 0px;
+    height: 500px;
+    margin-bottom: 3%;
 }
 
 .top-banner{
     background-image: url("images/top-banner.png");
-    float: left;
     background-repeat: no-repeat;
 }
 
+.single-exp{
+    box-shadow: 10px 20px 40px gray;
+    border-radius: 5px;
+    height: 300px;
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg,cyan, blue);
+    border-image-slice: 1;
+    background-color: white;
+}
+
+.exp{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.exp h1{
+    border: 5px solid white;
+}
+
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
