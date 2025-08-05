@@ -15,9 +15,9 @@ function LeftSideProfileBar() {
   return (
     <div
       className={cn(
-        "hidden lg:flex lg:w-1/3 xl:w-1/4 bg-gradient-to-br from-gray-800 via-gray-900 to-black text-white relative lg:h-screen lg:overflow-hidden",
+        "left-side-profile-bar hidden lg:flex lg:w-1/3 xl:w-1/4 bg-gradient-to-br from-gray-800 via-gray-900 to-black text-white relative lg:h-screen lg:overflow-hidden",
         {
-          "w-full lg:w-full h-screen lg:h-full flex lg:flex pb-[72px] lg:pb-0":
+          "w-full lg:w-full xl:w-full h-screen lg:h-full flex lg:flex pb-[72px] lg:pb-0":
             currentSection === "home",
         }
       )}

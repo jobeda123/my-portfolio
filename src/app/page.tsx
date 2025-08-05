@@ -1,5 +1,5 @@
 import LeftSideProfileBar from "@/components/LeftSideProfileBar";
-import MainContentContainer from "@/components/MainContentContainer";
+import MainContainer from "@/components/MainContainer";
 import MobileProfile from "@/components/MobileProfile";
 import { getSectionIds } from "@/utils/section-helpers";
 
@@ -12,7 +12,7 @@ export default function Home() {
       
       <LeftSideProfileBar />
 
-      <MainContentContainer sections={sections} />
+      <MainContainer sections={sections} />
     </div>
   );
 }
