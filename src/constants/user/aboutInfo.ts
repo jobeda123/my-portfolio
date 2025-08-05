@@ -4,7 +4,12 @@ export const ABOUT_INFO = {
   summary: "Full-Stack Team Lead & Senior Software Engineer with 8+ years of experience in web development, telecom, ticketing, and e-commerce projects. Expert in Node.js, PHP/Laravel, React/Next.js, MySQL/PostgreSQL, and Docker-driven DevOps, I translate complex requirements into secure, scalable solutions while mentoring cross-functional teams and driving agile, test-driven development workflows.",
   
   extendedSummary: "Beyond technical expertise, I excel at bridging business needs with innovative technology solutions, ensuring projects deliver both exceptional user experiences and measurable business value. My leadership approach emphasizes collaboration, continuous learning, and maintaining high code quality standards across diverse development environments.",
-  
+
+  keyMetrics:[
+    { value: "3+", label: "Years Experience" },
+    { value: "10+", label: "Projects Delivered" }
+  ],
+
   // Experience Stats
   experience: {
     years: "8+",

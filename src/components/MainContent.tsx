@@ -13,7 +13,6 @@ export default function MainContent() {
     return null
   }
 
-  // Find the current section configuration
   const currentSectionConfig = SECTIONS.find(section => section.id === currentSection)
 
   if (!currentSectionConfig) {

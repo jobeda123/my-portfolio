@@ -2,9 +2,9 @@
 export const BASIC_INFO = {
   name: "Jobeda Nur Akhi",
   title: "Software Engineer",
-  fullTitle: "Full-Stack Team Lead & Senior Software Engineer",
-  location: "Your City, Country", // Update with real location
-  avatarName: "JA", // Initials for avatar
+  fullTitle: "Full-Stack Developer & Software Engineer",
+  location: "Dhaka, Bangladesh",
+  avatarName: "JA", 
 } as const;
 
 // Professional tagline
