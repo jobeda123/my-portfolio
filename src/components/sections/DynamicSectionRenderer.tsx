@@ -10,6 +10,7 @@ const componentMap = {
   AboutSection: lazy(() => import('./AboutSection')),
   SkillsSection: lazy(() => import('./SkillsSection')),
   ExperienceSection: lazy(() => import('./ExperienceSection')),
+  EducationSection: lazy(() => import('./EducationSection')),
 //   ProjectsSection: lazy(() => import('./ProjectsSection')),
 //   ContactSection: lazy(() => import('./ContactSection')),
   // ServicesSection: lazy(() => import('./ServicesSection')),

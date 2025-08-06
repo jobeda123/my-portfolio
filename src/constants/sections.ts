@@ -33,6 +33,12 @@ export const SECTIONS: Section[] = [
     component: 'ExperienceSection'
   },
   {
+    id: 'education',
+    label: 'Education',
+    icon: 'education',
+    component: 'EducationSection'
+  },
+  {
     id: 'projects',
     label: 'Projects',
     icon: 'projects',

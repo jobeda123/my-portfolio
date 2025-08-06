@@ -1,7 +1,26 @@
 import React from "react";
 import { IconProps } from "./types";
-import { AboutIcon, blogIcon, ContactIcon, EmailIcon, experienceIcon, FacebookIcon, FallBackIcon, GitHubIcon, HomeIcon, LinkedInIcon, MobileIcon, ProjectsIcon, resumeIcon, servicesIcon, skillsIcon, testimonialsIcon, TwitterIcon, WebsiteIcon } from "./AllIcons";
-
+import {
+  AboutIcon,
+  blogIcon,
+  ContactIcon,
+  educationIcon,
+  EmailIcon,
+  experienceIcon,
+  FacebookIcon,
+  FallBackIcon,
+  GitHubIcon,
+  HomeIcon,
+  LinkedInIcon,
+  MobileIcon,
+  ProjectsIcon,
+  resumeIcon,
+  servicesIcon,
+  skillsIcon,
+  testimonialsIcon,
+  TwitterIcon,
+  WebsiteIcon,
+} from "./AllIcons";
 
 const iconMap = {
   home: HomeIcon,
@@ -20,10 +39,9 @@ const iconMap = {
   experience: experienceIcon,
   blog: blogIcon,
   testimonials: testimonialsIcon,
-  resume:resumeIcon ,
+  resume: resumeIcon,
+  education: educationIcon
 } as const;
-
-
 
 export const Icon: React.FC<IconProps> = ({
   type,

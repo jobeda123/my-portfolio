@@ -1,16 +1,13 @@
 import React from "react";
-import ExperienceTimeline from "./ExperienceTimeline";
+import TimelineWrapper from "@/components/wrapper/TimelineWrapper";
 import { EXPERIENCE_INFO } from "@/constants/user/experienceInfo";
-import ExperienceCard from "./ExperienceCard";
+import ExperienceCard from "@/components/core/card/ExperienceCard";
+
 
 function ExperienceList() {
   return (
     <div className="space-y-6">
-      <h3 className="text-2xl lg:text-3xl font-bold text-gray-900 text-center">
-        Career Timeline
-      </h3>
-
-      <ExperienceTimeline>
+      <TimelineWrapper>
         {EXPERIENCE_INFO.companies.map((company) => (
           <ExperienceCard
             key={company.id}
@@ -22,7 +19,7 @@ function ExperienceList() {
             isActive={company.isActive}
           />
         ))}
-      </ExperienceTimeline>
+      </TimelineWrapper>
     </div>
   );
 }
