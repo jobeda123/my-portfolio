@@ -43,11 +43,5 @@ export const SECTIONS: Section[] = [
     label: 'Services',
     icon: 'services',
     component: 'ServicesSection'
-  },
-  {
-    id: 'skills',
-    label: 'Skills',
-    icon: 'skills',
-    component: 'SkillsSection'
   }
 ];
