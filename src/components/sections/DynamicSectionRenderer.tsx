@@ -8,10 +8,10 @@ import SectionLoader from '../loader/SectionLoader'
 // Dynamic component imports
 const componentMap = {
   AboutSection: lazy(() => import('./AboutSection')),
+  SkillsSection: lazy(() => import('./SkillsSection')),
 //   ProjectsSection: lazy(() => import('./ProjectsSection')),
 //   ContactSection: lazy(() => import('./ContactSection')),
-//   ServicesSection: lazy(() => import('./ServicesSection')),
-  SkillsSection: lazy(() => import('./SkillsSection')),
+  // ServicesSection: lazy(() => import('./ServicesSection')),
 }
 
 

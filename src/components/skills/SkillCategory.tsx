@@ -1,5 +1,5 @@
-import { getCategoryColor } from "@/utils/section-helpers";
 import React from "react";
+
 
 function SkillCategory({
   category,
