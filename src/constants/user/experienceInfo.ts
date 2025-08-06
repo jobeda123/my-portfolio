@@ -1,15 +1,19 @@
-// Experience Information
-export const EXPERIENCE_INFO = {
-    subTitle:"A journey of growth, innovation, and technical excellence across various roles and technologies",
-  description:
-    "I have over 8 years of experience in software development, specializing in full-stack web applications. My expertise includes designing scalable architectures, leading development teams, and delivering high-quality software solutions.",
-  stats: {
+import { getTotalYears } from "@/utils/string";
+
+const stats={
     startDate: new Date("2021-08-01"),
     endDate:new Date(),
     companiesWorked: 4,
     projectsCompleted: 50,
     technologiesUsed: 25,
-  },
+  }
+
+// Experience Information
+export const EXPERIENCE_INFO = {
+    subTitle:"A journey of growth, innovation, and technical excellence across various roles and technologies",
+  description:
+    "I have over 8 years of experience in software development, specializing in full-stack web applications. My expertise includes designing scalable architectures, leading development teams, and delivering high-quality software solutions.",
+  stats:stats ,
   companies: [
     {
       id: 1,
@@ -86,6 +90,12 @@ export const EXPERIENCE_INFO = {
       ],
     },
   ],
+  summary: `Over the past ${getTotalYears(stats.startDate, stats.endDate)} years, I&apos;ve
+        evolved from a frontend developer into a senior full-stack engineer and
+        team lead. My journey has been marked by continuous learning, taking on
+        challenging projects, and mentoring fellow developers. I&apos;ve worked
+        across various industries, building scalable applications and leading
+        technical initiatives.`
 } as const;
 
 export type ExperienceCompany = (typeof EXPERIENCE_INFO.companies)[0];
