@@ -21,6 +21,12 @@ export const SECTIONS: Section[] = [
     component: 'AboutSection'
   },
   {
+    id: 'skills',
+    label: 'Skills',
+    icon: 'skills',
+    component: 'SkillsSection'
+  },
+  {
     id: 'projects',
     label: 'Projects',
     icon: 'projects',

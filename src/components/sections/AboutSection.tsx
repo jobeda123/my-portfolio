@@ -1,11 +1,9 @@
 import React from "react";
-import { BASIC_INFO } from "@/constants/user/basicInfo";
-import { ABOUT_INFO } from "@/constants/user/aboutInfo";
-import SectionWrapper from "../wrapper/SectionWrapper";
-import WelcomeHeader from "../about/WelcomeHeader";
-import AboutMe from "../about/AboutMe";
-import KeyMetrics from "../about/KeyMetrics";
-import ProfessionalHighlights from "../about/ProfessionalHighlights";
+import SectionWrapper from "@/components/wrapper/SectionWrapper";
+import WelcomeHeader from "@/components/about/WelcomeHeader";
+import AboutMe from "@/components/about/AboutMe";
+import KeyMetrics from "@/components/about/KeyMetrics";
+import ProfessionalHighlights from "@/components/about/ProfessionalHighlights";
 
 
 export default function AboutSection() {
