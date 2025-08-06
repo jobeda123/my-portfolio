@@ -1,6 +1,6 @@
 import { ABOUT_INFO } from "@/constants/user";
 import React from "react";
-import GradientSectionTitle from "../typography/GradientSectionTitle";
+import GradientSectionTitle from "../core/typography/GradientSectionTitle";
 
 function AboutMe() {
   return (

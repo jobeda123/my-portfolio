@@ -9,6 +9,7 @@ import SectionLoader from '../loader/SectionLoader'
 const componentMap = {
   AboutSection: lazy(() => import('./AboutSection')),
   SkillsSection: lazy(() => import('./SkillsSection')),
+  ExperienceSection: lazy(() => import('./ExperienceSection')),
 //   ProjectsSection: lazy(() => import('./ProjectsSection')),
 //   ContactSection: lazy(() => import('./ContactSection')),
   // ServicesSection: lazy(() => import('./ServicesSection')),
