@@ -1,6 +1,6 @@
 import React from "react";
-import GradientButton from "../ui/GradientButton";
-import GreenOutlineButton from "../ui/GreenOutlineButton";
+import GradientButton from "../core/button/GradientButton";
+import GreenOutlineButton from "../core/button/GreenOutlineButton";
 
 function ProfessionalHighlights() {
   return (

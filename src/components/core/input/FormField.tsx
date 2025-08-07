@@ -1,7 +1,5 @@
 'use client'
 
-import { useIsDarkMode } from '@/stores/themeStore'
-
 interface FormFieldProps {
   label: string
   type?: 'text' | 'email' | 'textarea'
@@ -10,6 +8,7 @@ interface FormFieldProps {
   disabled?: boolean
   required?: boolean
   rows?: number
+  placeholder?: string
 }
 
 export default function FormField({ 
@@ -19,26 +18,23 @@ export default function FormField({
   onChange, 
   disabled = false, 
   required = false,
-  rows = 4 
+  rows = 4,
+  placeholder
 }: FormFieldProps) {
-  const isDarkMode = useIsDarkMode()
 
-  const baseClasses = `w-full p-3 rounded-lg border transition-colors ${
-    isDarkMode 
-      ? 'bg-gray-800 border-gray-600 text-white disabled:bg-gray-700' 
-      : 'bg-white border-gray-300 text-gray-900 disabled:bg-gray-100'
-  }`
+  const baseClasses = `w-full px-3 py-2 rounded-lg border-2 transition-all duration-300 bg-gray-50 border-gray-200 text-gray-900 disabled:bg-gray-100 focus:border-emerald-500 focus:ring-2 focus:ring-emerald-500/20 focus:bg-white placeholder:text-gray-400`
 
   return (
     <div>
-      <label className="block text-sm font-medium mb-2">{label}</label>
+      <label className="block text-sm font-semibold text-gray-700 mb-3">{label} {required && <span className="text-red-500">*</span>}</label>
       {type === 'textarea' ? (
         <textarea
           value={value}
           onChange={(e) => onChange(e.target.value)}
           disabled={disabled}
           rows={rows}
-          className={baseClasses}
+          placeholder={placeholder}
+          className={`${baseClasses} resize-none`}
           required={required}
         />
       ) : (
@@ -47,6 +43,7 @@ export default function FormField({
           value={value}
           onChange={(e) => onChange(e.target.value)}
           disabled={disabled}
+          placeholder={placeholder}
           className={baseClasses}
           required={required}
         />

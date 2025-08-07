@@ -5,7 +5,7 @@ import ProfileImage from "@/components/profile/ProfileImage";
 import UserNameAndTitle from "@/components/profile/UserNameAndTitle";
 import SocialLinks from "./profile/SocialLinks";
 import CopyRight from "./profile/CopyRight";
-import DownloadButton from "./ui/DownloadButton";
+import DownloadButton from "./core/button/DownloadButton";
 import { useCurrentSection } from "@/stores";
 import { cn } from "@/lib/utils";
 

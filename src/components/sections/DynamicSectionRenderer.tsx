@@ -5,17 +5,14 @@ import { Section } from '@/constants/sections'
 import DefaultSection from './DefaultSection'
 import SectionLoader from '../loader/SectionLoader'
 
-// Dynamic component imports
 const componentMap = {
   AboutSection: lazy(() => import('./AboutSection')),
   SkillsSection: lazy(() => import('./SkillsSection')),
   ExperienceSection: lazy(() => import('./ExperienceSection')),
   EducationSection: lazy(() => import('./EducationSection')),
   PortfolioSection: lazy(() => import('./PortfolioSection')),
-//   ContactSection: lazy(() => import('./ContactSection')),
-  // ServicesSection: lazy(() => import('./ServicesSection')),
+  ContactSection: lazy(() => import('./ContactSection')),
 }
-
 
 interface DynamicSectionRendererProps {
   sectionConfig: Section

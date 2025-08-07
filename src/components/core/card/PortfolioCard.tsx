@@ -1,7 +1,7 @@
 import React from "react";
 import Technologies from "@/components/experience/Technologies";
 import Responsibilities from "@/components/experience/Responsibilities";
-import GradientButton from "@/components/ui/GradientButton";
+import GradientButton from "@/components/core/button/GradientButton";
 
 interface PortfolioCardProps {
   title: string;

@@ -4,6 +4,7 @@ import { devtools } from 'zustand/middleware'
 interface ContactFormData {
   name: string
   email: string
+  subject: string
   message: string
 }
 
@@ -22,6 +23,7 @@ interface ContactFormState {
 const initialForm: ContactFormData = {
   name: '',
   email: '',
+  subject: '',
   message: '',
 }
 
