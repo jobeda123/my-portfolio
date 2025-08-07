@@ -22,11 +22,11 @@ function ContactInformation() {
             <Icon className="w-4 h-4 text-emerald-600" type={contact.icon as IconType} />
           </div>
           <div className="flex-1">
-            <h3 className="text-lg font-semibold text-gray-900">
+            <h3 className="text-base lg:text-lg font-semibold text-gray-900">
               {contact.name}
             </h3>
 
-            <p className="text-gray-600 group-hover:text-emerald-600 transition-colors duration-300">
+            <p className="text-gray-600 group-hover:text-emerald-600 transition-colors duration-300 text-sm lg:text-base">
               {contact.value}
             </p>
           </div>
