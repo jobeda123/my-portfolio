@@ -2,7 +2,9 @@ import React from "react";
 
 function Responsibilities({
   responsibilities = [],
+  title= "Responsibilities",
 }: {
+  title?: string;
   responsibilities?: readonly string[] | [];
 }) {
   return (
@@ -10,8 +12,9 @@ function Responsibilities({
       {responsibilities?.length > 0 ? (
         <div>
           <h4 className="text-lg font-semibold text-gray-900 mb-3">
-            Responsibilities
+            {title}
           </h4>
+          
           <ul className="space-y-2">
             {responsibilities.map((responsibility, index) => (
               <li key={index} className="flex items-start gap-3">

@@ -20,6 +20,7 @@ export const EXPERIENCE_INFO = {
       title: "Senior Software Engineer (FullStack Team Lead)",
       company: "Portonics Limited",
       period: "November, 2021 – Present",
+      workType: "Remote" as const,
       isActive: true,
       technologies: [
         "JavaScript",
@@ -50,6 +51,7 @@ export const EXPERIENCE_INFO = {
       title: "Full Stack Developer",
       company: "TechCorp Solutions",
       period: "January, 2020 – October, 2021",
+      workType: "Hybrid" as const,
       isActive: false,
       technologies: [
         "React",
@@ -72,6 +74,7 @@ export const EXPERIENCE_INFO = {
       title: "Frontend Developer",
       company: "Digital Innovations Inc",
       period: "June, 2018 – December, 2019",
+      workType: "Onsite" as const,
       isActive: false,
       technologies: [
         "React",

@@ -14,6 +14,7 @@ function ExperienceList() {
             title={company.title}
             company={company.company}
             period={company.period}
+            workType={company.workType}
             technologies={company.technologies}
             responsibilities={company.responsibilities}
             isActive={company.isActive}

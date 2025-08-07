@@ -39,10 +39,10 @@ export const SECTIONS: Section[] = [
     component: 'EducationSection'
   },
   {
-    id: 'projects',
-    label: 'Projects',
-    icon: 'projects',
-    component: 'ProjectsSection'
+    id: 'portfolio',
+    label: 'Portfolio',
+    icon: 'portfolio',
+    component: 'PortfolioSection'
   },
   {
     id: 'contact',
@@ -50,10 +50,4 @@ export const SECTIONS: Section[] = [
     icon: 'contact',
     component: 'ContactSection'
   },
-  {
-    id: 'services',
-    label: 'Services',
-    icon: 'services',
-    component: 'ServicesSection'
-  }
 ];

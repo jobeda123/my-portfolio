@@ -1,0 +1,39 @@
+import React from "react";
+import Technologies from "@/components/experience/Technologies";
+import Responsibilities from "@/components/experience/Responsibilities";
+
+interface PortfolioCardProps {
+  title: string;
+  technologies?: readonly string[] | [];
+  responsibilities?: readonly string[] | [];
+  description?: string;
+}
+
+function PortfolioCard({
+  title,
+  technologies = [],
+  responsibilities = [],
+  description = "",
+}: PortfolioCardProps) {
+  return (
+    <div className="bg-white rounded-xl shadow-lg p-6 lg:p-8 relative">
+      <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between mb-4">
+        <div className="flex-1">
+          <h3 className="text-xl lg:text-2xl font-bold text-gray-900 mb-2">
+            {title}
+          </h3>
+
+          {description && (
+            <p className="text-gray-600 leading-relaxed">{description}</p>
+          )}
+        </div>
+      </div>
+
+      <Technologies technologies={technologies} />
+
+      <Responsibilities responsibilities={responsibilities} />
+    </div>
+  );
+}
+
+export default PortfolioCard;

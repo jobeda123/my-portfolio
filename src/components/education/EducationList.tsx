@@ -1,6 +1,6 @@
 import React from "react";
 import { EDUCATION_INFO } from "@/constants/user/educationInfo";
-import EducationCard from "./EducationCard";
+import EducationCard from "../core/card/EducationCard";
 import TimelineWrapper from "../wrapper/TimelineWrapper";
 
 
@@ -18,7 +18,6 @@ function EducationList() {
             gpa={degree.gpa}
             coursework={degree.coursework}
             achievements={degree.achievements}
-            isActive={degree.isActive}
           />
         ))}
       </TimelineWrapper>
