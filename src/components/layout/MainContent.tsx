@@ -2,8 +2,8 @@
 
 import { useCurrentSection } from '@/stores/navigationStore'
 import { SECTIONS } from '@/constants/sections'
-import { DynamicSectionRenderer } from '@/components/sections/DynamicSectionRenderer'
-import NotFoundSection from '@/components/sections/NotFoundSection'
+import { DynamicSectionRenderer } from '@/components/core/sections/DynamicSectionRenderer'
+import NotFoundSection from '@/components/core/sections/NotFoundSection'
 import MainContentWrapper from '@/components/wrapper/MainContentWrapper'
 
 export default function MainContent() {

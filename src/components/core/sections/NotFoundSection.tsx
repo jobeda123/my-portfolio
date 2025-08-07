@@ -1,5 +1,5 @@
 import React from "react";
-import MainContentWrapper from "../wrapper/MainContentWrapper";
+import MainContentWrapper from "../../wrapper/MainContentWrapper";
 
 function NotFoundSection({ currentSection }: { currentSection: string }) {
   return (
