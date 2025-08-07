@@ -43,12 +43,10 @@ export const PORTFOLIO_INFO = {
         "Configured Docker containerization and AWS deployment",
         "Mentored junior developers and conducted code reviews"
       ],
-      status: "Completed",
       duration: "3 months",
       teamSize: "4 developers",
       role: "Full-Stack Lead Developer",
-      demoUrl: "https://ecommerce-demo.vercel.app",
-      githubUrl: "https://github.com/jobeda123/ecommerce-platform",
+      liveUrl: "https://ecommerce-demo.vercel.app",
       imageUrl: "/images/projects/ecommerce-platform.jpg",
       isActive: false
     },
@@ -86,12 +84,10 @@ export const PORTFOLIO_INFO = {
         "Optimized application performance and SEO with Next.js features",
         "Collaborated with backend team for API integration and data flow"
       ],
-      status: "In Progress",
       duration: "2 months",
       teamSize: "3 developers",
       role: "Frontend Lead & Architecture",
-      demoUrl: "https://taskmanager-demo.vercel.app",
-      githubUrl: "https://github.com/jobeda123/task-management",
+      liveUrl: "https://taskmanager-demo.vercel.app",
       imageUrl: "/images/projects/task-management.jpg",
       isActive: true
     },
@@ -130,12 +126,10 @@ export const PORTFOLIO_INFO = {
         "Created analytics dashboard with Chart.js for healthcare insights",
         "Ensured HIPAA compliance and data security measures"
       ],
-      status: "Completed",
       duration: "4 months",
       teamSize: "5 developers",
       role: "Full-Stack Developer",
-      demoUrl: "https://healthcare-booking.demo.com",
-      githubUrl: "https://github.com/jobeda123/healthcare-system",
+      liveUrl: "https://healthcare-booking.demo.com",
       imageUrl: "/images/projects/healthcare-system.jpg",
       isActive: false
     },
@@ -174,12 +168,10 @@ export const PORTFOLIO_INFO = {
         "Implemented property comparison tool with side-by-side analysis",
         "Optimized mobile responsiveness and cross-browser compatibility"
       ],
-      status: "Completed",
       duration: "3.5 months",
       teamSize: "4 developers",
       role: "Frontend Developer",
-      demoUrl: "https://realestate-platform.demo.com",
-      githubUrl: "https://github.com/jobeda123/realestate-platform",
+      liveUrl: "https://realestate-platform.demo.com",
       imageUrl: "/images/projects/realestate-platform.jpg",
       isActive: false
     },
@@ -218,12 +210,10 @@ export const PORTFOLIO_INFO = {
         "Implemented automated certificate generation system",
         "Configured AWS S3 for scalable video and content storage"
       ],
-      status: "Completed",
       duration: "5 months",
       teamSize: "6 developers",
       role: "Backend Lead Developer",
-      demoUrl: "https://lms-platform.demo.com",
-      githubUrl: "https://github.com/jobeda123/lms-platform",
+      liveUrl: "https://lms-platform.demo.com",
       imageUrl: "/images/projects/lms-platform.jpg",
       isActive: false
     },
@@ -262,12 +252,10 @@ export const PORTFOLIO_INFO = {
         "Created automated report generation and scheduling system",
         "Designed custom dashboard builder with drag-and-drop functionality"
       ],
-      status: "Completed",
       duration: "2.5 months",
       teamSize: "3 developers",
       role: "Full-Stack Developer",
-      demoUrl: "https://social-analytics.demo.com",
-      githubUrl: "https://github.com/jobeda123/social-analytics",
+      liveUrl: null,
       imageUrl: "/images/projects/social-analytics.jpg",
       isActive: false
     }

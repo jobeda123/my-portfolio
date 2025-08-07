@@ -14,6 +14,7 @@ function PortfolioList() {
             description={portfolio.description}
             technologies={portfolio.technologies}
             responsibilities={portfolio.responsibilities}
+            liveUrl={portfolio?.liveUrl ?? null}
           />
         ))}
       </>
