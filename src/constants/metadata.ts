@@ -50,8 +50,6 @@ export const metadata: Metadata = {
   category: "Technology",
   classification: "Portfolio Website",
   referrer: "origin-when-cross-origin",
-  colorScheme: "light",
-  viewport: "width=device-width, initial-scale=1",
   manifest: "/manifest.json",
   icons: {
     icon: [
@@ -78,13 +76,6 @@ export const metadata: Metadata = {
         alt: `${SITE_NAME} - ${BASIC_INFO.fullTitle}`,
         type: "image/jpeg",
       },
-      {
-        url: "/images/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: `${SITE_NAME} Portfolio Website`,
-        type: "image/png",
-      }
     ],
   },
   robots: {
@@ -100,11 +91,11 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  verification: {
-    google: "your-google-verification-code", // Add your Google Search Console verification
-    // yandex: "your-yandex-verification-code",
-    // bing: "your-bing-verification-code",
-  },
+  // verification: {
+  //   google: "your-google-verification-code", // Add your Google Search Console verification
+  //   // yandex: "your-yandex-verification-code",
+  //   // bing: "your-bing-verification-code",
+  // },
   alternates: {
     canonical: SITE_URL,
     languages: {
