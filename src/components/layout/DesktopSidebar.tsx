@@ -6,7 +6,7 @@ import {
 } from "@/stores/navigationStore";
 import { getSectionLabel, getSectionIcon } from "@/utils/section-helpers";
 import Icon from "@/components/icons/Icon";
-import GradientTooltip from "./core/tooltip/GradientTooltip";
+import GradientTooltip from "../core/tooltip/GradientTooltip";
 
 interface SidebarProps {
   sections: string[];

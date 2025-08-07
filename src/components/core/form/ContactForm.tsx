@@ -5,7 +5,7 @@ import {
   useContactFormSubmit,
 } from "@/stores/contactFormStore";
 import FormField from "@/components/core/input/FormField";
-import Alert from "../../ui/Alert";
+import Alert from "@/components/core/alert/Alert";
 import GradientButton from "@/components/core/button/GradientButton";
 
 export default function ContactForm() {

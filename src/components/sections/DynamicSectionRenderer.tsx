@@ -2,8 +2,8 @@
 
 import { lazy, Suspense } from 'react'
 import { Section } from '@/constants/sections'
-import DefaultSection from './DefaultSection'
-import SectionLoader from '../loader/SectionLoader'
+import DefaultSection from '@/components/sections/DefaultSection'
+import SectionLoader from '@/components/loader/SectionLoader'
 
 const componentMap = {
   AboutSection: lazy(() => import('./AboutSection')),

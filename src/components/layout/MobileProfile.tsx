@@ -2,8 +2,8 @@
 
 import { useCurrentSection } from "@/stores/navigationStore";
 import { BASIC_INFO, PROFILE_IMAGE } from "@/constants/user";
-import ProfileImage from "./profile/ProfileImage";
-import ProfileImageAvatar from "./profile/ProfileImageAvatar";
+import ProfileImage from "../profile/ProfileImage";
+import ProfileImageAvatar from "../profile/ProfileImageAvatar";
 
 export default function MobileProfile() {
   const currentSection = useCurrentSection();

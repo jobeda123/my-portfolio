@@ -1,7 +1,7 @@
 import React from "react";
-import DesktopSidebar from "./DesktopSidebar";
-import MobileNavigation from "./MobileNavigation";
-import MainContent from "./MainContent";
+import DesktopSidebar from "@/components/layout/DesktopSidebar";
+import MobileNavigation from "@/components/layout/MobileNavigation";
+import MainContent from "@/components/layout/MainContent";
 
 
 function MainContainer({ sections }: { sections: string[] }) {
