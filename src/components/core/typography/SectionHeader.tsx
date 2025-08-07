@@ -15,9 +15,9 @@ function SectionHeader({
       <GradientSectionTitle
         blackText={blackText}
         coloredText={coloredText}
-        className={'text-4xl lg:text-5xl'}
+        className={'text-3xl lg:text-4xl'}
       />
-      <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+      <p className="text-base lg:text-lg text-gray-600 max-w-3xl mx-auto">
         {subtitle}
       </p>
     </div>

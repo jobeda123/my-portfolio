@@ -1,9 +1,10 @@
+import { cn } from "@/lib/utils";
 import React from "react";
 
-function CopyRight() {
+function CopyRight({ className='' }: { className?: string }) {
     const currentYear = new Date().getFullYear();
     return (
-        <p className="text-gray-500 text-sm mt-6">© {currentYear} All rights reserved.</p>
+        <p className={cn("text-gray-500 text-sm mt-6", className)}>© {currentYear} All rights reserved.</p>
     );
 }
 

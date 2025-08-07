@@ -22,7 +22,7 @@ function LeftSideProfileBar() {
         }
       )}
     >
-      <div className="w-full flex flex-col justify-center items-center p-6 lg:p-8">
+      <div className="w-full flex flex-col lg:justify-end justify-center items-center p-6 lg:p-8">
         <div className="text-center space-y-4">
           <ProfileImage />
 
@@ -30,9 +30,9 @@ function LeftSideProfileBar() {
 
           <SocialLinks />
 
-          <div className="mt-[30px] lg:mt-[60px]">
+          <div className="mt-[20px] lg:mt-[140px]">
             <DownloadButton />
-            <CopyRight />
+            <CopyRight className="hidden lg:block" />
           </div>
         </div>
       </div>
